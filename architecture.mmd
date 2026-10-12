@@ -1,0 +1,13 @@
+flowchart TD
+    A[Generated users, products, sessions, events] --> B[Bronze ingestion]
+    B --> C[Silver cleaning and deduplication]
+    C --> D[Gold analytical tables]
+    D --> E[Databricks SQL Warehouse]
+    E --> F[Streamlit AI Product Analyst]
+    F --> G[Question intent routing]
+    G --> H[Retrieve relevant metric evidence]
+    H --> I[Databricks AI function]
+    I --> J[Business explanation]
+    H --> K[Supporting evidence shown to user]
+    J --> L[Answer in app]
+    K --> L
