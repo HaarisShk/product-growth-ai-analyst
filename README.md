@@ -94,7 +94,6 @@ The Streamlit app supports questions about:
 - `notebooks/`: cleaned Databricks notebook exports for auditing, Silver transformation, Gold analytics, validation, product performance, promotion economics, and AI SQL examples.
 - `docs/`: architecture, data definitions, methodology, findings, and notebook cleanup notes.
 - `architecture/`: Mermaid architecture diagram source.
-- Add actual standalone SQL files only if they were used in the implementation; do not create placeholder SQL and claim it is production code.
 
 ## Limitations
 
